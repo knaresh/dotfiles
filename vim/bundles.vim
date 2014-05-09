@@ -8,7 +8,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-"Bundle 'gmarik/vundle'
+Bundle 'gmarik/vundle'
 
 
 
@@ -56,7 +56,7 @@ call vundle#rc()
 "Bundle 'fholgado/minibufexpl.vim'
 
 " Fuzzy file, buffer, mru and tag finder
-"Bundle 'kien/ctrlp.vim'
+Bundle 'kien/ctrlp.vim'
 
 " Status bar
 "Bundle 'Lokaltog/vim-powerline'
