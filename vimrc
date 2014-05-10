@@ -4,10 +4,18 @@ filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
 "Vundle Configuration"
 source ~/.vim/bundles.vim
 
-
+" preferences
 set t_Co=256              " enable 256-color mode.
 syntax enable             " enable syntax highlighting (previously syntax on).
-colorscheme desert        " set colorscheme
+syntax on
+try
+    " For mac download colors from
+    " https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized 
+    set background=dark
+    colorscheme solarized " set colorscheme
+catch
+    colorscheme desert
+endtry
 set number                " show line numbers
 set laststatus=2          " last window always has a statusline
 filetype indent on        " activates indenting for files

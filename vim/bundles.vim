@@ -15,8 +15,9 @@ Bundle 'gmarik/vundle'
 "
 " Colorshemes
 "
-"Bundle 'xoria256.vim'
-"Bundle 'tomasr/molokai'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'xoria256.vim'
+" Bundle 'tomasr/molokai'
 
 "
 " Plugins
