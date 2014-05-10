@@ -1,3 +1,50 @@
 [user]
 	name = Naresh Kumar
 	email = naresh_kolloju@yahoo.co.in
+[color]
+	ui = auto
+[alias]
+	a = add
+	ai = add -i
+	ap = add -p
+	ae = add -e
+	b = branch
+	cm = commit -m
+	ca = commit -a
+	caar = commit -a --amend --reuse-message=HEAD
+	car = commit --amend --reuse-message=HEAD
+	cam = commit -am
+	co = checkout
+	d = diff
+	dc = diff --cached
+	ds = diff --stat
+	f = fetch
+	g = grep -n
+	l = log --decorate --graph
+	lf = log --graph --pretty=epic-friend
+	le = log --graph --pretty=epic-exact
+	lng = log --decorate
+	lfng = log --pretty=epic-friend
+	leng = log --pretty=epic-exact
+	l1 = log --graph --pretty=epic-exact -1
+	lt = log --graph --pretty=epic-friend -10 --first-parent
+	p = pull
+	pr = pull --rebase
+	rp = rebase -p
+	s = status
+	sl = stash list --pretty=epic-exact
+	sn = show --stat --decorate
+	rl = reflog --decorate
+	rs = remote show
+	r = reset
+	rp = reset -p
+	ri = rebase -i
+	rilt = rebase -i HEAD~10
+	wc = whatchanged --decorate --graph
+[github]
+	user = knaresh
+[push]
+	default = upstream
+[pretty]
+	epic-exact = %C(yellow)%h%Cred %ci%Creset%Creset%C(bold red) ~%Creset %C(cyan)%an%Creset%C(bold cyan),%Creset %s%C(bold green)%d%Creset
+	epic-friend = %C(yellow)%h%Creset %C(cyan)%an%Creset%C(bold cyan),%Creset %s%Cred %ar%C(bold green)%d%Creset
