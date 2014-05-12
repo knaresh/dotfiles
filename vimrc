@@ -11,6 +11,7 @@ syntax on
 try
     set background=dark
     colorscheme solarized " set colorscheme
+    "colorscheme seoul256
 catch
     colorscheme desert
 endtry
@@ -32,7 +33,7 @@ set nowrap                " don't wrap text
 " adds this character infront of wraped lines
 set showbreak=↪
 " files types to be ignored usde by ctrlp
-wildignore=.svn,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc
+set wildignore=.svn,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc
 
 " ### KEY MAPPINGS ###
 map  <C-l> :tabn<CR>

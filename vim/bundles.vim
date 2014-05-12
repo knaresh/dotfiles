@@ -17,6 +17,7 @@ Bundle 'gmarik/vundle'
 "
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'xoria256.vim'
+Bundle 'junegunn/seoul256.vim'
 " Bundle 'tomasr/molokai'
 
 "
