@@ -12,6 +12,8 @@ try
     set background=dark
     colorscheme solarized " set colorscheme
     "colorscheme seoul256
+    let g:airline_theme='solarized'
+    let g:airline_extensions_tabline_enabled = 1
 catch
     colorscheme desert
 endtry
