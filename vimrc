@@ -9,8 +9,6 @@ set t_Co=256              " enable 256-color mode.
 syntax enable             " enable syntax highlighting (previously syntax on).
 syntax on
 try
-    " For mac download colors from
-    " https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized 
     set background=dark
     colorscheme solarized " set colorscheme
 catch
