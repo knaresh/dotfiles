@@ -56,8 +56,11 @@ Bundle 'xoria256.vim'
 " Display a list of buffers on top of the screen
 "Bundle 'fholgado/minibufexpl.vim'
 
+" NAVIGATION Category 
 " Fuzzy file, buffer, mru and tag finder
 Bundle 'kien/ctrlp.vim'
+" File Tree 
+Bundle 'vim-scripts/The-NERD-tree'
 
 " Status bar
 "Bundle 'Lokaltog/vim-powerline'
