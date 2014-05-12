@@ -29,6 +29,14 @@ set shiftround            " always indent/outdent to the nearest tabstop
 set expandtab             " use spaces instead of tabs
 set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
+" adds this character infront of wraped lines
+set showbreak=↪
+" files types to be ignored usde by ctrlp
+wildignore=.svn,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc
+
+" ### KEY MAPPINGS ###
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
 
 " ### LEADER COMMANDS ###
 let mapleader = '\'
