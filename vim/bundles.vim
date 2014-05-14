@@ -19,14 +19,19 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'xoria256.vim'
 Bundle 'junegunn/seoul256.vim'
 Bundle 'bling/vim-airline'
+
 "
 " Plugins
 "
 " Git
 Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'ervandew/supertab'
+
 
 "Code
 Bundle 'scrooloose/syntastic'
+Bundle 'vim-scripts/The-NERD-Commenter'
 
 " Comment
 "Bundle 'tomtom/tcomment_vim'

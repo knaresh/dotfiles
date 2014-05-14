@@ -39,8 +39,8 @@ set showbreak=↪
 set wildignore=.svn,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc
 
 " ### KEY MAPPINGS ###
-nmap  <C-l> :tabn<CR>
-nmap  <C-h> :tabp<CR>
+nmap  <C-k> :tabn<CR>
+nmap  <C-j> :tabp<CR>
 nmap <Leader>ct :!ctags *<CR><CR>
 
 " ### LEADER COMMANDS ###
