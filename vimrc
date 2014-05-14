@@ -14,6 +14,7 @@ try
     "colorscheme seoul256
     let g:airline_theme='solarized'
     let g:airline_extensions_tabline_enabled = 1
+    let g:syntastic_enable_signs=1
 catch
     colorscheme desert
 endtry
@@ -38,11 +39,16 @@ set showbreak=↪
 set wildignore=.svn,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc
 
 " ### KEY MAPPINGS ###
-map  <C-l> :tabn<CR>
-map  <C-h> :tabp<CR>
+nmap  <C-l> :tabn<CR>
+nmap  <C-h> :tabp<CR>
+nmap <Leader>ct :!ctags *<CR><CR>
 
 " ### LEADER COMMANDS ###
 let mapleader = '\'
 
 " NERD The Tree
 nmap <leader>ne :NERDTree<cr>
+
+" Syntastic
+nmap <silent> <leader>si :SyntasticInfo<CR>
+nmap <silent> <leader>sc :SyntasticCheck<CR>

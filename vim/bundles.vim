@@ -25,6 +25,9 @@ Bundle 'bling/vim-airline'
 " Git
 Bundle 'tpope/vim-fugitive'
 
+"Code
+Bundle 'scrooloose/syntastic'
+
 " Comment
 "Bundle 'tomtom/tcomment_vim'
 
