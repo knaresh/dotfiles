@@ -1,0 +1,15 @@
+This file describes hot install dot files on any machine.
+I will try to eventually reduce manual steps for each OS, Initiall there will be a lot thougn
+
+========================================================
+MAC OSX
+========================================================
+I am writing these notes for OS xversion 10.8.5. I use home brew for
+managing packages (http://brew.sh/) in mac
++ Install and import the theme for mac solarized theme to work
+    ->https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized 
++ Checkout dot files and run makesymlinks
+    -> makesymlinks
++ Keyboard remap install,  Follow these instructions (may need system restart)
+    -> http://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x
+
