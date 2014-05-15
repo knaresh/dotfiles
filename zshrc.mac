@@ -1,0 +1,4 @@
+source ~/dotfiles/zshrc
+
+# Mac specific set up
+alias tmux="TERM=screen-256color-bce tmux"
