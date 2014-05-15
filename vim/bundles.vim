@@ -32,6 +32,7 @@ Bundle 'ervandew/supertab'
 "Code
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/The-NERD-Commenter'
+Bundle 'bronson/vim-trailing-whitespace'
 
 " Comment
 "Bundle 'tomtom/tcomment_vim'
