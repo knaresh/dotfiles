@@ -7,9 +7,3 @@ Terminal + Vim Fonts:
 Menlo + 14 (prefer)
 Monaco + 13 
 
-
-x
-
-y
-
-z
